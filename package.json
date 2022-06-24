@@ -1,0 +1,18 @@
+{
+  "name": "rooftop-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "check.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rodrigo Gomez Insausti",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
