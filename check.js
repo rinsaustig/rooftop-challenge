@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 async function get() {
   let url = "https://rooftop-career-switch.herokuapp.com/blocks?token=";
-  let token = "Introduzca su Token!";
+  let token = "INTRODUZCA SU TOKEN!";
   let response = await fetch(url + token, {
     method: "GET",
     headers: {
@@ -9,7 +9,6 @@ async function get() {
     },
   });
   const json = await response.json();
-  const arrayOrdenado = new Array(json.data[0]);
   check(json, token);
 }
 
