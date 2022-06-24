@@ -8,7 +8,7 @@ function check(array) {
   let longitud = array.length + 1;
   let contador = 1;
   for (let i = 0; contador < longitud; i++) {
-    if (i > 550) {
+    if (i > 150) {
       return console.log("excesivas iteraciones");
     }
     arrayIterante.forEach((e, index) => {
